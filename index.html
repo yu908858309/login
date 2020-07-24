@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/conmon.css">
+    <!-- 引入当前页面的样式 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 引入js样式 -->
+    <script src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <!-- 顶部 -->
+        <div class="top b252 f12 cfff">
+            <div class="container">
+            欢迎来到HOUSE家居网！
+                <div class="fr">                  
+                    <div class="flogin fl" style="color: red;">登录</div>               
+                    <div class="rlogin fr">注册</div>
+                </div>
+            </div>
+        </div>
+        <div class="login">
+            <div class="logincont">
+                <h4>立即登录</h4>
+                <form action="#" class="myform">
+                    <p class="j1">
+                        <input class="username" type="text">
+                        <img src="./images/delete.png" alt="">
+                        <span></span>
+                    </p>
+                    <p class="j2">
+                        <input class="pass" type="password">
+                        <img src="./images/close.png" alt="">
+                        <span></span>
+                    </p>
+                    <p class="j3"><input type="submit"></p>
+                </form>
+                <span class="closex">X</span>
+            </div>
+        </div>
+        <script src="./js/login.js"></script>
+        <!-- 导航栏(nav) -->
+        <div class="nav">
+            <div class="container clearfix">
+                <!-- LOGO -->
+                <div class="logo fl">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <!-- nav -->
+                <div class="list fr">
+                    <ul class="menu">
+                        <li>
+                            <a href="#">首&emsp;&emsp;页</a>
+                            <!-- 二级菜单 -->
+                            <p id="p1">
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                            </p>
+                        </li>
+                        <li><a href="#">关于我们</a>
+                            <!-- 二级菜单 -->
+                            <p id="p1">
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="#">产品展示</a>
+                            <p id="p1">
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="#">新闻动态</a>
+                            <p id="p1">
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="#">在线留言</a>
+                            <p id="p1">
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="#">联系我们</a>
+                            <p id="p1">
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                                <a href="#">新闻动态</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/二级菜单.js"></script>
+    <!-- banner -->
+    <div id="banner">
+        <ul class="pic">
+            <li><img src="./images/banner1.jpg" alt=""></li>
+            <li><img src="./images/banner2.jpg" alt=""></li>
+            <li><img src="./images/banner1.jpg" alt=""></li>
+            <li><img src="./images/banner2.jpg" alt=""></li>
+        </ul>
+        <ul class="tab"> 
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!-- <div class="container">
+            <div class="pg">
+                <div class="title">
+                    <h1 class="f40 cfff">精致生活 简单爱</h1>
+                    <p class="f20 cfff">用细节缔造美好家居， 触碰你心中的柔软</p>
+                    <p class="f20 cfff">给您无微不至的关怀</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="./js/pic.js"></script>
+    <script src="./js/slide.fn.js"></script>
+    <!-- 产品介绍 -->
+    <div id="products">
+        <div class="container clearfix">
+            <!-- 左 -->
+            <div class="lproduct fl">
+                <h2 class="cfff f20">品质高 经久耐用</h2>
+                <p class="cfff f14">
+                    当前家纺市场上的优秀代表，从织造、染色、印花
+                    及整理包装的整个流程，我们都做的十分仔细，而且
+                    在环保性上，也有很好的表现
+                </p>
+            </div>
+            <!-- 中 -->
+            <div class="cproduct fl">
+                <h2 class="cfff f20">品质高 经久耐用</h2>
+                <p class="cfff f14">
+                    公司全体员团结奋进、开拓进取，为创建特色鲜
+                    明、质量一流的名牌产品而不懈努力。公司凭借高素质
+                    的人才队伍，先进的工艺和一流、完善的企业管理
+                </p>
+            </div>
+            <!-- 右 -->
+            <div class="dproduct fl">
+                <h2 class="cfff f20">先进的工艺技术</h2>
+                <p class="cfff f14">
+                    家纺依靠科技进步、倡导绿色消费，让消费者充分
+                    体会到品牌文化所带来的无穷魅力，专业致力于功能性
+                    家纺，产品有真丝系列、婚庆系列、时尚系列
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 产品展示 -->
+    <div id="product">
+        <div class="container">
+            <div class="title">
+                <h2 class="f28 c252">产品展示<span class="cbbb">OUR PRODUCTS</span></h2>     
+            </div>
+            <div class="clearfix">
+                <div class="pproduct clearfix fl">
+                    <div class="fproduct png1">
+                        <div class="mproduct">
+                            <p class="f20 c252">居家日用</p>
+                            <p class="f18 c00a">Home Daily</p>
+                        </div>
+                    </div>
+                    <div class="fproduct png2">
+                        <div class="mproduct">
+                            <p class="f20 c252">居家日用</p>
+                            <p class="f18 c00a">Home Daily</p>
+                        </div>
+                    </div>
+                    <div class="fproduct png3">
+                        <div class="mproduct">
+                            <p class="f20 c252">居家日用</p>
+                            <p class="f18 c00a">Home Daily</p>
+                        </div>
+                    </div>
+                    <div class="fproduct png4">
+                        <div class="mproduct">
+                            <p class="f20 c252">居家日用</p>
+                            <p class="f18 c00a">Home Daily</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rproduct fr">
+                    <div class="Mproduct">
+                        <p class="f20 c252">居家日用</p>
+                        <p class="f18 c00a">Home Daily</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 关于我们 -->
+    <div id="about">
+        <div class="container">
+            <div class="abouts">
+            <h2 class="f29 fmal">
+                关于我们
+                <div></div>
+            </h2>
+            <p class="f15 c6b6">**家纺有限公司现有员工1000余人，资产总额9000万元。下设：纺纱分厂、毛巾分厂、绣花分厂、家纺分厂和进出口公司。先后在韩国、欧洲、日本、美国、澳大利亚、新加坡、中东、非洲等十几个国家和地区建立了稳定的销售网络和分公司。被省、市政府评为“先进企业”“功勋企业”“外贸出口先进单位”，同时被授予“AAA”级信用企业。**公司凭借高素质的人才队伍，先进的工艺和一流、完善的企业管理，赢得了国内外客户的良好赞誉，使得企业很快发展成为集纺、织、印、染、绣花为一体的家纺集团。公司先后荣获了“中国驰名商标”、“**名牌”、“**省著名商标”等荣誉称号。公司通过了ISO9001：2000......</p>
+            <div class="button">
+                <button>READ MORE</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- 新闻动态 -->
+    <div id="news">
+        <div class="container">
+            <div class="title">
+                <h2 class="f28 c252">新闻动态<span class="cbbb">NEWS CENTER</span></h2>     
+            </div>
+            <div class="Nnews clearfix">
+                <div class="probable fl">
+                    <img src="./images/pic06.jpg" alt="">
+                    <ul>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">家纺行业的四大走向</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">高科技家电未来都很低碳</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">2009年净利润同比增长34.4</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">家电涨价与降价背后的营销逻辑</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">高科技家电未来都很低碳 </p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">XX网加盟“绿书签”行动</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="probable fl">
+                    <img src="./images/pic07.jpg" alt="">
+                    <ul>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">迎|“十一”主题优惠即将开幕</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">**家纺驻外办事处相继成立</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">**家纺驻外办事处相继成立</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">继往开来 搏击10</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">x组团参加第十七届中国（上海）</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">**家居体验馆盛大开业</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                    </ul>  
+                </div>
+                <div class="probable fr">
+                    <img src="./images/pic08.jpg" alt="">
+                    <ul>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">高科技家电未来都很低碳</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">端午节家电大力促销</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">家纺与电影</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">高科技家电未来都很低碳</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">中国家纺市场现状及前景预测</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="fl c15b f14">[行业资讯]</a>
+                            <p class="fl f14">家纺行业的四大走向</p>
+                            <span class="fr f12 ca5a">2014-10-20</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="online">
+        <div class="btop">
+            <a class="bg1" href="#"><span>在线咨询</span></a>
+            <a class="bg2" href="#"><span>028-888888</span></a>
+            <a class="bg3" href="#"><span>在线客户</span></a>
+            <a class="bg4 sTop" href="Script:"><span>返回顶部</span></a>
+        </div>
+    </div>
+    <!-- 页脚 -->
+    <div id="footer">
+        <div class="container">
+            <div class="message clearfix">
+                <!-- 左边盒子 -->
+                <div class="messages fl c7e7">
+                    <img src="./images/logo2.jpg" alt="">
+                    <p><span class="icon icon1"></span>中国上海市XXX区XXX路12号XX大厦5层5XX室</p>
+                    <p><span class="icon icon2"></span>400-000-XXXX  (021)-12345678XX</p>
+                    <p><span class="icon icon3"></span>12345678XXX@gmail.com</p>
+                </div>
+                <!-- 中间盒子 -->
+                <div class="messages fl">
+                    <div class="icon4 f20"><a href="#" class="cfff">快速链接</a></div>
+                    <ul class="f14 c7e7">
+                        <li><a href="#">> 网站首页 </a></li>
+                        <li><a href="#">> 关于我们 </a></li>
+                        <li><a href="#">> 产品展示 </a></li>
+                        <li><a href="#">> 新闻动态 </a></li>
+                        <li><a href="#">> 在线留言 </a></li>
+                        <li><a href="#">> 联系我们 </a></li>
+                    </ul>
+                </div>
+                <!-- 右边盒子 -->
+                <div class="messages fl">
+                    <div class="icon4 f20 cfff"><a href="#">站内搜索</a></div>
+                    <div class="clearfix">
+                        <input type="text" placeholder="请输入关键字" class="fl">
+                        <button class="fl">搜索</button>
+                    </div>
+                    <div class="abouts f16 cfff">
+                        <p><a href="#">关注我们</a>
+                            <span class="icon5"></span>
+                            <span class="icon6"></span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="copy">
+            Copyright&copy;2009-2011,www.XXXXXX.com,All rights reserved  沪ICP备XXXXXXX号未经同意,不得转载
+        </div>
+    </div>
+    <!-- 引入当前页面js -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
